@@ -1,8 +1,8 @@
-# Projeto de Monitoramento Cardíaco com protocolo MQTT
+[[# Projeto de Monitoramento Cardíaco com protocolo MQTT
 
 ## Descrição
 
-Este é um projeto de monitoramento cardíaco desenvolvido como parte do curso de Objetos Inteligentes Conectados na Universidade Presbiteriana Mackenzie. O sistema monitora os batimentos cardíacos em tempo real e transmite os dados para uma plataforma remota usando o protocolo MQTT.
+Este projeto de monitoramento cardíaco integra-se ao contexto do curso de Objetos Inteligentes Conectados, realizado na Universidade Presbiteriana Mackenzie. A sua finalidade é monitorar em tempo real os batimentos cardíacos, transmitindo esses dados para uma plataforma remota por meio do protocolo MQTT e visualização em uma página web. Essencialmente, trata-se de um projeto de IoT, onde dispositivos conectados e inteligentes são empregados para coleta e transmissão de informações relevantes.
 
 ## Funcionalidades
 
@@ -110,6 +110,10 @@ Para reproduzir este projeto, siga as etapas abaixo:
 5. Conecte a placa em uma fonte de energia utilizando um cabo micro USB 2.0 
 6. Compile e envie o programa para a placa e observe os dados sendo transmitidos.
 7. Para rodar a página web, entre na pasta com os arquivos ```html```, ```css```, ```javascript```, abra o terminal e rode ```npm install```, e depois execute o script ```npx http-server``` para instalar o servidor local, e para executar ```http-server```.
+Após esses passos ao acessar a rota exibida no terminal a página web estará disponível:
+
+<img src="https://ik.imagekit.io/q8vyo7feaitz/web_n3UnR4KBU.png?updatedAt=1716160106107" alt="Página web do monitoramento cardíado">
 
 ## Protótipo
-<img src="https://ik.imagekit.io/q8vyo7feaitz/Captura%20de%20tela%202024-05-19%20193956_nelYW5Igv.png?updatedAt=1716158448195" alt="Sensor de Pulso" width="950" height="600">
+<img src="https://ik.imagekit.io/q8vyo7feaitz/Captura%20de%20tela%202024-05-19%20193956_nelYW5Igv.png?updatedAt=1716158448195" alt="Sensor de Pulso">
+](https://ik.imagekit.io/q8vyo7feaitz/web_n3UnR4KBU.png?updatedAt=1716160106107)https://ik.imagekit.io/q8vyo7feaitz/web_n3UnR4KBU.png?updatedAt=1716160106107](https://ik.imagekit.io/q8vyo7feaitz/web_n3UnR4KBU.png?updatedAt=1716160106107)
