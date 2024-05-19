@@ -116,4 +116,3 @@ Após esses passos ao acessar a rota exibida no terminal a página web estará d
 
 ## Protótipo
 <img src="https://ik.imagekit.io/q8vyo7feaitz/Captura%20de%20tela%202024-05-19%20193956_nelYW5Igv.png?updatedAt=1716158448195" alt="Sensor de Pulso">
-](https://ik.imagekit.io/q8vyo7feaitz/web_n3UnR4KBU.png?updatedAt=1716160106107)https://ik.imagekit.io/q8vyo7feaitz/web_n3UnR4KBU.png?updatedAt=1716160106107](https://ik.imagekit.io/q8vyo7feaitz/web_n3UnR4KBU.png?updatedAt=1716160106107)
