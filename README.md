@@ -54,7 +54,7 @@ Este projeto de monitoramento cardíaco integra-se ao contexto do curso de Objet
 
 ## Descrição
 
-O código `monitoramento_cardiaco_mqtt.ino` implementa um sistema de monitoramento cardíaco utilizando o microcontrolador ESP8266 (NodeMCU) e o protocolo MQTT para transmitir os dados para uma plataforma remota. O sistema monitora os batimentos cardíacos em tempo real e envia os dados do BPM (batimentos por minuto) para um servidor MQTT.
+O código `pulsesensor.ino` implementa um sistema de monitoramento cardíaco utilizando o microcontrolador ESP8266 (NodeMCU) e o protocolo MQTT para transmitir os dados para uma plataforma remota. O sistema monitora os batimentos cardíacos em tempo real e envia os dados do BPM (batimentos por minuto) para um servidor MQTT.
 
 ## Configurações Iniciais
 
