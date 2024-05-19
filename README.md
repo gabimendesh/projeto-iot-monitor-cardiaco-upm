@@ -1,4 +1,4 @@
-[[# Projeto de Monitoramento Cardíaco com protocolo MQTT
+# Projeto de Monitoramento Cardíaco com protocolo MQTT
 
 ## Descrição
 
