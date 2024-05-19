@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+} 
+
+body {
+    padding:  24px;
+    background-color: #fcf5f7;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .monitor-cardiaco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  #heart {
+    display: flex;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #bpm {
+    font-size: 48px;
+    font-weight: 700;
+    color: #646464;
+    text-align: center;
+  }
+
+  #bpm-text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #2e2e2e;
+    text-align: center;
+  }
+  
+  #heart-1,
+  #heart-2,
+  #heart-3 {
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    margin: 0 auto;
+  }
+  
+  #heart-1 {
+    animation: heartbeat1 5s infinite;
+    transform: scale(0.5);
+    z-index: 3;
+  }
+  
+  #heart-2 {
+    animation: heartbeat2 5s infinite;
+    transform: scale(0.75);
+    z-index: 2;
+  }
+  
+  #heart-3 {
+    animation: heartbeat3 5s infinite;
+    transform: scale(1);
+    z-index: 1;
+  }
+  
+  #heart-1:before,
+  #heart-1:after {
+    background: #ff9d9d; /* Cor do coração azul */
+  }
+  
+  #heart-2:before, 
+  #heart-2:after {
+    background: #ffc3c3; /* Cor do coração amarelo */
+  }
+  
+  #heart-3:before,
+  #heart-3:after {
+    background: #ffd2d2; /* Cor do coração verde */
+  }
+  
+  #heart-1:before,
+  #heart-2:before,
+  #heart-3:before,
+  #heart-1:after,
+  #heart-2:after,
+  #heart-3:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+  }
+  
+  #heart-1:after,
+  #heart-2:after,
+  #heart-3:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+  }
+  
+  @keyframes heartbeat1 {
+    0% {
+      transform: scale(0.5);
+    }
+    20% {
+      transform: scale(0.75);
+    }
+    40% {
+      transform: scale(0.5);
+    }
+    60% {
+      transform: scale(0.75);
+    }
+    80% {
+      transform: scale(0.5);
+    }
+    100% {
+      transform: scale(0.5);
+    }
+  }
+  
+  @keyframes heartbeat2 {
+    0% {
+      transform: scale(0.75);
+    }
+    20% {
+      transform: scale(1);
+    }
+    40% {
+      transform: scale(0.75);
+    }
+    60% {
+      transform: scale(1);
+    }
+    80% {
+      transform: scale(0.75);
+    }
+    100% {
+      transform: scale(0.75);
+    }
+  }
+  
+  @keyframes heartbeat3 {
+    0% {
+      transform: scale(1);
+    }
+    20% {
+      transform: scale(1.25);
+    }
+    40% {
+      transform: scale(1);
+    }
+    60% {
+      transform: scale(1.25);
+    }
+    80% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
